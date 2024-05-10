@@ -28,6 +28,12 @@ html body center {
     font-family: Lato;
 }
 
+html body center a {
+    border: #212121;
+    border-style: solid;
+    border-radius: 30px;
+}
+
 html body center button {
     border: #212121;
     border-style: solid;
