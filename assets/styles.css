@@ -1,0 +1,60 @@
+#googlehere {
+    width: 90%;
+    font-size: 120%;
+    background-color: #C8E6C9;
+    color: #727272;
+}
+
+#urlhere {
+    width: 90%;
+    font-size: 120%;
+    text-decoration: underline;
+    background-color: #C8E6C9;
+    color: #727272;
+}
+
+#googlehere {
+    border-radius: 10px;
+}
+
+#urlhere {
+    border-radius: 10px;
+}
+
+html body center {
+    border-radius: 30px;
+    font-size: 100%;
+    color: #212121;
+    font-family: Lato;
+}
+
+html body center button {
+    border: #212121;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+.modal {
+        position: fixed;
+        inset: 0;
+        background: rgba(
+            254,
+            126,
+            126,
+            0.7
+        );
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+.content {
+    position: relative;
+    background: white;
+    padding: 1em 2em;
+    border-radius: 4px;
+}
+
+.modal:target {
+    display: flex;
+}

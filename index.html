@@ -1,68 +1,9 @@
 <html>
     <head>
-        <title>re-lmgtfy generator</title>
-        <style>
-        #googlehere {
-            width: 90%;
-            font-size: 120%;
-            background-color: #C8E6C9;
-            color: #727272;
-        }
+        <title>Re-LMGTFY</title>
+        <script src="assets/script.js"></script>
+        <link rel="stylesheet" href="assets/styles.css">
         
-        #urlhere {
-            width: 90%;
-            font-size: 120%;
-            text-decoration: underline;
-            background-color: #C8E6C9;
-            color: #727272;
-        }
-        
-        #googlehere {
-            border-radius: 10px;
-        }
-        
-        #urlhere {
-            border-radius: 10px;
-        }
-        
-        html body center {
-            border-radius: 30px;
-            font-size: 100%;
-            color: #212121;
-            font-family: Lato;
-        }
-
-        html body center button {
-            border: #212121;
-            border-style: solid;
-            border-radius: 30px;
-        }
-
-        .modal {
-                position: fixed;
-                inset: 0;
-                background: rgba(
-                    254,
-                    126,
-                    126,
-                    0.7
-                );
-                display: none;
-                align-items: center;
-                justify-content: center;
-            }
-
-        .content {
-            position: relative;
-            background: white;
-            padding: 1em 2em;
-            border-radius: 4px;
-        }
-
-        .modal:target {
-            display: flex;
-        }
-        </style>
     </head>
     <body>
         <center>
@@ -77,19 +18,6 @@
                     <p>To copy link, select link, right click and copy it (You can use Ctrl+C or Cmd+C (On Mac))</p>
                 </div>
             </div>
-            <script>
-                function giveLink() {
-                    var search = document.getElementById("googlehere").value;
-                    var url = "https://nedasalehi.github.io/re-lmgtfy/go.html?q=" + search;
-                    document.getElementById("url").textContent = url;
-                }
-
-                function openInNewTab() {
-                    var url = document.getElementById("url").textContent;
-                    open(url);
-                    win.focus()
-                }
-            </script>
         </center>
     </body>
 </html>
