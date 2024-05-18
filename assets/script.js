@@ -1,6 +1,6 @@
 function giveLink() {
     var search = document.getElementById("googlehere").value;
-    var url = "https://nedasalehi.github.io/re-lmgtfy/go.html?q=" + search;
+    var url = "https://maarasteh.github.io/re-lmgtfy/go.html?q=" + search;
     document.getElementById("url").textContent = url;
 }
 
